@@ -1,6 +1,6 @@
 .section3 .circle-1 {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border: 1px solid var(--border-color);
   border-radius: 50px;
   display: flex;
@@ -10,8 +10,8 @@
 }
 
 .section3 .circle-2 {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background-color: var(--border-color);
   border-radius: 50px;
   display: flex;
@@ -21,17 +21,21 @@
 
 .section3 .small-icon {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   background-color: var(--primary-color);
   border-radius: 50px;
-  right: 0px;
-  bottom: -2px;
+  right: -5px;
+  bottom: -4px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1px;
   color: var(--color-white);
+}
+
+.section3 .small-icon i {
+  font-size: 12px;
 }
 
 .icon-area {
