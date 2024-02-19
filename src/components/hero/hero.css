@@ -1,7 +1,7 @@
 .hero-frame {
   width: 100%;
   background-color: var(--bg-color);
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 .hero-frame main {
@@ -18,11 +18,11 @@
 }
 
 .text1 {
-  font-size: 30px;
+  font-size: 50px;
   font-family: var(--font1);
   font-weight: 600;
-  margin-bottom: 20px;
-  line-height: 32px;
+  margin-bottom: 30px;
+  line-height: 55px;
 }
 
 .text2 {
@@ -31,37 +31,35 @@
 }
 
 .metrics {
-  margin-top: 20px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 25% 25%;
 }
 
 .metrics > div {
   padding-left: 12px;
-  border-left: 1px solid #eee;
+  border-left: 3px solid #eee;
   color: var(--primary-color);
 }
 
 .metrics > div > p:first-child {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .metrics > div > p:nth-child(2) {
-  font-size: 8px;
+  font-size: 16px;
   color: var(--color-black);
 }
 
 .hero-frame .switch {
   display: flex;
-  margin-top: 10px;
 }
 
 .hero-frame .switch div {
   background-color: var(--color-white);
-  width: 60px;
   justify-content: space-around;
-  padding: 6px 0px;
+  padding: 10px 35px;
   text-align: center;
   font-family: var(--font2);
   font-weight: 500;
@@ -82,7 +80,7 @@
 .hero-frame .search {
   display: flex;
   background-color: var(--color-white);
-  height: 50px;
+  height: 100px;
   align-items: center;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -95,7 +93,7 @@
 }
 
 .search-area .card2 {
-  margin-top: -120px;
+  margin-top: -200px;
 }
 
 .search-area .search .bord {
@@ -114,7 +112,7 @@
 }
 
 .search-area .search p {
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
   font-family: var(--font2);
 }
@@ -122,8 +120,8 @@
 .search-area .search button, .browse-btn {
   background-color: var(--primary-color);
   color: var(--color-white);
-  font-size: 11px;
+  font-size: 16px;
   font-family: var(--font2);
-  padding: 5px 18px;
+  padding: 8px 22px;
   border-radius: 5px;
 }

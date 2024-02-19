@@ -23,7 +23,7 @@ ul {
 * {
   box-sizing: border-box;
   font-family: var(--primary-font);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 ul {
@@ -46,7 +46,7 @@ textarea:active {
   outline: none;
 }
 
-@media (min-width: 1130px) {
+@media (min-width: 2000px) {
   .page-frame {
     display: flex;
     flex-direction: column;
@@ -54,6 +54,6 @@ textarea:active {
     background-color: var(--bg-color);
   }
   .page-frame > div {
-    width: 900px;
+    width: 1130px;
   }
 }

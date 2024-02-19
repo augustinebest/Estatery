@@ -29,7 +29,7 @@ function Hero() {
       <main>
         <div>
           <div>
-            <p className="text1">Buy, rent, or sell your property easily</p>
+            <p className="text1">Buy, rent, or sell <br/> your property <br/> easily</p>
             <p className="text2">
               A great platform to buy, sell, or even rent your properties
               without any commisions.

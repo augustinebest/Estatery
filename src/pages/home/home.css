@@ -12,7 +12,7 @@
 }
 
 .virtual-frame .asset {
-  height: 250px;
+  height: 320px;
   position: relative;
 }
 
@@ -26,7 +26,7 @@
   border: 1px solid var(--border-color);
   position: absolute;
   margin-left: -50px;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: var(--color-white);
   padding: 10px;
   box-shadow: 1px 0px 15px var(--border-color);
@@ -40,7 +40,7 @@
 }
 
 .virtual-frame .asset .item2 {
-  bottom: -25px;
+  bottom: -33px;
   width: 80%;
   margin: auto;
   left: 0;
@@ -48,19 +48,19 @@
 }
 
 .virtual-frame .asset .items p:first-child {
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .virtual-frame .asset .items p:last-child {
   color: var(--font-color1);
-  font-size: 8px;
+  font-size: 14px;
   margin-top: -2px;
 }
 
 .virtual-frame .asset .items .icon div {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
@@ -72,10 +72,10 @@
 
 .virtual-frame .asset .item2 .circle {
   position: absolute;
-  top: -12px;
-  right: 15px;
-  width: 25px;
-  height: 25px;
+  top: -15px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
   background-color: var(--primary-color);
   border: 1px solid var(--color-white);
   border-radius: 50%;
@@ -86,6 +86,7 @@
 
 .virtual-frame .asset .item2 .circle i {
   color: var(--color-white);
+  font-size: 20px;
 }
 
 .virtual-notes {
@@ -109,13 +110,14 @@
   border: 1px solid var(--border-color);
   font-weight: 600;
   color: var(--primary-color);
+  font-size: 16px;
 }
 
 .virtual-notes .tab button,
 .virtual-notes .tab div {
   padding: 3px 12px;
   font-family: var(--font-color1);
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .virtual-notes .tab div {
@@ -125,15 +127,15 @@
 .virtual-notes .head,
 .section3 .head,
 .section4 .head {
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 600;
-  margin: 12px 0;
+  margin: 15px 0;
 }
 
 .virtual-notes p,
 .section3 .desc,
 .section4 .desc {
-  font-size: 8px;
+  font-size: 16px;
   width: 70%;
 }
 
@@ -144,15 +146,15 @@
   display: flex;
   align-items: center;
   border-radius: 3px;
-  margin-top: 12px;
+  margin-top: 15px;
 }
 
 .virtual-button span {
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .virtual-button i {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .s3 {
@@ -179,18 +181,18 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-gap: 5px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .section3 .image-area {
   width: 100%;
-  height: 100%;
+  height: 300px;
 }
 
 .section3 .image-area img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .s4 {
@@ -224,7 +226,7 @@
 
 .s-card {
   display: grid;
-  grid-template-columns: 30% 30% 33%;
+  grid-template-columns: 32% 32% 32%;
   grid-gap: 30px;
   margin-top: 20px;
 }
