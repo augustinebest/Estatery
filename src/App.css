@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: "red";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color-red: red;
+  --primary-color: rgb(112, 101, 240);
+  --border-color: rgb(224, 222, 247);
+  --color-white: #ffffff;
+  --primary-font: "Inter", sans-serif;
+  --bg-color: rgb(250, 250, 254);
+  --color-black: rgb(0, 0, 0);
+  --font1: Arial, Helvetica, sans-serif;
+  --font2: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-color1: rgb(161, 165, 176);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  font-size: 11px;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+input,
+input:focus,
+input:active,
+textarea,
+textarea:focus,
+textarea:active {
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 1130px) {
+  .page-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .page-frame > div {
+    width: 900px;
   }
 }

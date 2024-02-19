@@ -1,0 +1,129 @@
+.hero-frame {
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 20px 0;
+}
+
+.hero-frame main {
+  width: 85%;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hero-frame .main {
+  width: 85%;
+  margin: auto;
+}
+
+.text1 {
+  font-size: 30px;
+  font-family: var(--font1);
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+}
+
+.metrics {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 25% 25%;
+}
+
+.metrics > div {
+  padding-left: 12px;
+  border-left: 1px solid #eee;
+  color: var(--primary-color);
+}
+
+.metrics > div > p:first-child {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.metrics > div > p:nth-child(2) {
+  font-size: 8px;
+  color: var(--color-black);
+}
+
+.hero-frame .switch {
+  display: flex;
+  margin-top: 10px;
+}
+
+.hero-frame .switch div {
+  background-color: var(--color-white);
+  width: 60px;
+  justify-content: space-around;
+  padding: 6px 0px;
+  text-align: center;
+  font-family: var(--font2);
+  font-weight: 500;
+  border-bottom: 2px solid var(--bg-color);
+  cursor: pointer;
+}
+
+.hero-frame .switch div:first-child {
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-top-left-radius: 5px;
+}
+
+.hero-frame .switch div:last-child {
+  border-top-right-radius: 5px;
+}
+
+.hero-frame .search {
+  display: flex;
+  background-color: var(--color-white);
+  height: 50px;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-area .card2 {
+  margin-top: -120px;
+}
+
+.search-area .search .bord {
+  border-left: 1px solid #eee;
+  padding-left: 20px;
+}
+
+
+
+.search-area .search .bord:first-child {
+  border-left: none;
+}
+
+.search-area .search .bord:last-child {
+  padding-right: 12px;
+}
+
+.search-area .search p {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font2);
+}
+
+.search-area .search button, .browse-btn {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  font-size: 11px;
+  font-family: var(--font2);
+  padding: 5px 18px;
+  border-radius: 5px;
+}

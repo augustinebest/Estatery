@@ -1,0 +1,122 @@
+.card-frame {
+  border: 1px solid #eee;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-fixed-width {
+  max-width: 180px !important;
+}
+
+.card-frame > div {
+  width: 100%;
+  height: 100px;
+}
+
+.card-frame > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-details {
+  background-color: var(--color-white);
+  padding: 12px;
+  height: auto !important;
+}
+
+.card-details .amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.card-details .amount p:first-child span:first-child {
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font2);
+  letter-spacing: -1px;
+}
+
+.card-details .amount p:first-child span:nth-child(2) {
+  color: var(--font-color1);
+  font-size: 8px;
+  margin-left: 2px;
+  font-weight: 600;
+}
+
+.card-details .amount p:nth-child(2) {
+  border-radius: 50%;
+  border: 1px solid #eee;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-details .name {
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.card-details .address {
+  font-size: 8px;
+  color: var(--font-color1);
+  margin-bottom: 4px;
+}
+
+.card-footer {
+  display: flex;
+  margin-top: 6px;
+  position: relative;
+}
+
+.card-footer div {
+  margin-right: 13px;
+}
+
+.card-footer i {
+  color: var(--primary-color);
+  margin-right: 4px;
+}
+
+.card-footer span {
+  font-size: 8px;
+  font-family: var(--font2);
+}
+
+.popular {
+  position: absolute;
+  padding: 0 10px;
+  background-color: var(--primary-color);
+  width: 60px !important;
+  height: 15px !important;
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7px;
+  margin-left: -5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.popular span {
+  font-size: 6px !important;
+}
+
+.popular div {
+  margin-top: -1px;
+}
+
+.popular i {
+  margin-right: 2px;
+  font-size: 8px;
+}

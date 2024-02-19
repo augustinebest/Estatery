@@ -1,0 +1,53 @@
+.section3 .circle-1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section3 .circle-2 {
+  width: 30px;
+  height: 30px;
+  background-color: var(--border-color);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 .small-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  right: 0px;
+  bottom: -2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1px;
+  color: var(--color-white);
+}
+
+.icon-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-area .p1 {
+  font-family: var(--font-color1);
+  font-size: 16px;
+  margin: 8px 0 -1px;
+}
+
+.icon-area .p2 {
+  font-family: var(--font-color1);
+  font-size: 8px;
+  font-weight: 300;
+}

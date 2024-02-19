@@ -1,0 +1,234 @@
+.virtual-frame {
+  background-color: var(--color-white);
+  padding: 50px 0;
+}
+
+.virtual-frame > div {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-gap: 10%;
+  width: 85%;
+  margin: auto;
+}
+
+.virtual-frame .asset {
+  height: 250px;
+  position: relative;
+}
+
+.virtual-frame .asset img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.virtual-frame .asset .items {
+  border: 1px solid var(--border-color);
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 20px;
+  background-color: var(--color-white);
+  padding: 10px;
+  box-shadow: 1px 0px 15px var(--border-color);
+  border-radius: 5px;
+}
+
+.virtual-frame .asset .item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.virtual-frame .asset .item2 {
+  bottom: -25px;
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.virtual-frame .asset .items p:first-child {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.virtual-frame .asset .items p:last-child {
+  color: var(--font-color1);
+  font-size: 8px;
+  margin-top: -2px;
+}
+
+.virtual-frame .asset .items .icon div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: var(--bg-color);
+}
+
+.virtual-frame .asset .item2 .circle {
+  position: absolute;
+  top: -12px;
+  right: 15px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual-frame .asset .item2 .circle i {
+  color: var(--color-white);
+}
+
+.virtual-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.virtual-notes .tab {
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  display: inline-flex;
+  border-radius: 3px;
+  padding: 3px;
+  align-items: center;
+}
+
+.virtual-notes .tab button {
+  background-color: var(--color-white);
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.virtual-notes .tab button,
+.virtual-notes .tab div {
+  padding: 3px 12px;
+  font-family: var(--font-color1);
+  font-size: 10px;
+}
+
+.virtual-notes .tab div {
+  font-weight: 400;
+}
+
+.virtual-notes .head,
+.section3 .head,
+.section4 .head {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.virtual-notes p,
+.section3 .desc,
+.section4 .desc {
+  font-size: 8px;
+  width: 70%;
+}
+
+.virtual-button {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+.virtual-button span {
+  font-size: 8px;
+}
+
+.virtual-button i {
+  font-size: 10px;
+}
+
+.s3 {
+  background-color: var(--color-white);
+  padding: 30px 0;
+
+}
+
+.section3 {
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  width: 85%;
+  margin: auto;
+  padding: 30px 0 30px 30px;
+}
+
+.section3 > div {
+  display: grid;
+  grid-template-columns: 55% 44%;
+  grid-gap: 6px;
+}
+
+.section3 .data {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 5px;
+  margin-top: 20px;
+}
+
+.section3 .image-area {
+  width: 100%;
+  height: 100%;
+}
+
+.section3 .image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.s4 {
+  background: linear-gradient(
+    to bottom,
+    var(--color-white) 20%,
+    var(--bg-color) 50%,
+    var(--color-white) 80%
+  );
+}
+
+.section4 {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.section4 .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section4 .desc {
+  width: 100%;
+}
+
+.browse-btn {
+  padding: 8px 15px !important;
+}
+
+.s-card {
+  display: grid;
+  grid-template-columns: 30% 30% 33%;
+  grid-gap: 30px;
+  margin-top: 20px;
+}
+
+/* .s-card .card-item {
+  border: 1px solid red;
+} */
